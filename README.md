@@ -1,2 +1,2 @@
 # kakao
-HTML CSS 수업용자료
+studing html5 and css3
