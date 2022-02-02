@@ -1,0 +1,42 @@
+.chat_container {
+  margin: 20px 30px;
+}
+
+.chat_container__item {
+  background-color: rgb(207, 140, 140);
+}
+
+.friends-screen_list_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends-screen_list_text span:first-child {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.friends-screen_list_text span:nth-child(2) {
+  opacity: 50%;
+  margin-top: 10px;
+}
+
+.firends-screen__list__text__wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
