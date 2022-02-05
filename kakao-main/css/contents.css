@@ -1,0 +1,91 @@
+#contents {
+  margin: 20px 13px;
+  margin-top: 50px;
+}
+
+.contents_head > ul {
+  display: flex;
+  width: 100%;
+}
+
+.contents_head > ul li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents_head > ul li span {
+  line-height: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contents_head > ul li i {
+  font-size: 40px;
+}
+
+.contents_footer {
+  margin-top: 30px;
+}
+
+.contents_footer_explanation {
+  justify-content: space-between !important;
+}
+
+.contents_footer div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contents_footer div:first-child * {
+  margin-top: 10px;
+}
+
+.contents_footer ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents_footer li {
+  display: flex;
+}
+
+.contents_footer li div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contents_footer li div:last-child img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents_footer li div:first-child {
+  width: 80%;
+  /* background-color: aquamarine; */
+}
+
+.contents_footer li div:last-child {
+  width: 20%;
+  /* background-color: rosybrown; */
+  position: relative;
+}
+
+.contents_footer li div:last-child div {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 20px;
+}

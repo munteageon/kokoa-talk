@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Chat List</title>
+    <title>Contents</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,34 +24,69 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">채팅 목록</h1>
+      <h1 class="screen-header__title">컨텐츠 찾기</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-cog fa-lg"></i>
       </div>
     </header>
+    
+    <main id="contents">
+      <section class="contents_head">
+          <ul>
+            <li>
+              <i class="fas fa-qrcode fa-lg"></i>
+              <span>QR CODE</span>
+            </li>
+            <li>
+              <i class="far fa-address-book fa-lg"></i>
+              <span>Add by Contacts</span>
+            </li>
+            <li>
+              <i class="far fa-id-card fa-lg"></i>
+              <span>Add by Id</span>
+            </li>
+            <li>
+              <i class="far fa-envelope fa-lg"></i>
+              <span>Invite</span>
+            </li>
+          </ul>
+      </section>
+    
 
-    <main class="chat_container">
-      <section>
-        <div class="friends-screen_list">
-          <div class="friends-screen_list_left">
-            <img src="https://i2.ruliweb.com/img/21/03/24/1786196101b1389ce.png" class="user-component__avatar user-component__avatar--md" />
-            <div class="firends-screen__list__text__wrap">
-              <div class="friends-screen_list_text">
-                <span>문태건</span>
-                <span>안녕</span>
-              </div>
-              <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <span class="badge">1</span>
-              </div>
+
+    <!-- the second section-->
+    <section>
+
+    </section>
+    <!-- the second section -->
+
+    <section class="contents_footer">
+      <div class="contents_footer_explanation">
+        <spna>Open Chat</spna>
+        <spna>Go To Opend Chat Home ></spna>
+      </div>
+      <ul>
+        <li>
+          <div>
+            <h5>#BTS</h5>
+            <h6>#BTS #ARMY #FRIENDS</h6>
+            <!-- circle -->
+            <p>802 members | <span>Active</span></p>
+          </div>
+          <div>
+            <img src="https://img.icons8.com/carbon-copy/452/bts-logo.png"/>
+            <div>
+              <i class="fas fa-heart"></i>&nbsp;326
             </div>
           </div>
-        </div>
-      </section>
-    </main>
+        </li>
+        
+        
+
+      </ul>
+    </section>
+    </main> 
 
     <nav class="nav">
       <ul class="nav__list">
